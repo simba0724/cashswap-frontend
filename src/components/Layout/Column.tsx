@@ -9,7 +9,7 @@ export const ColumnCenter = styled(Column)`
   width: 100%;
   align-items: center;
 `
-
+ 
 export const AutoColumn = styled.div<{
   gap?: 'sm' | 'md' | 'lg' | string
   justify?: 'stretch' | 'center' | 'start' | 'end' | 'flex-start' | 'flex-end' | 'space-between'

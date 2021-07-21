@@ -8,9 +8,14 @@ const config: (t: ContextApi['t']) => MenuEntry[] = (t) => [
     href: '/',
   },
   {
-    label: t('Trade'),
+    label: t('Swap'),
     icon: 'TradeIcon',
     href: '/swap',
+  },
+  {
+    label: t('Liquidity'),
+    icon: 'TradeIcon',
+    href: '/liquidity',
   },
   {
     label: t('Farms'),
@@ -21,7 +26,12 @@ const config: (t: ContextApi['t']) => MenuEntry[] = (t) => [
     label: t('Pools'),
     icon: 'PoolIcon',
     href: '/pools',
-  }
+  },
+  {
+    label: t('PreSales'),
+    icon: 'IfoIcon',
+    href: '/presales',
+  },
 ]
 
 export default config
